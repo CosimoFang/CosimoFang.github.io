@@ -83,26 +83,21 @@
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <img src='images/NOVO.png' width="160">
+                <img src='images/TACL.png' width="160">
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>NOVO: Learnable and Interpretable Document Identifiers for Model Based IR</papertitle>
+              <papertitle>An End-to-End Contrastive Self-Supervised Learning Framework for Language Understanding </papertitle>
               <br>
-              <strong>Zihan Wang</strong>,
-              <a href="https://www.zhouyujia.cn/">Yujia Zhou</a>,
-              Yiteng Tu, 
-              <a href="http://playbigdata.ruc.edu.cn/dou">Zhicheng Dou</a>.
+              <strong>Hongchao Fang</strong>,
+		<a href="https://pengtaoxie.github.io//">Pengtao Xie</a>
               <br>
-              <em>Will appear at Conference on Information and Knowledge Management (CIKM) 2023</em>
+              <em>Transactions of the Association for Computational Linguistics 2022; 10 1324–1340</em>
               <br>
-              <a href="pdf/cikm23.pdf">[paper]</a>
-              <a href="">[code]</a>
+              <a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00521/114047/An-End-to-End-Contrastive-Self-Supervised-Learning">[paper]</a>
               <p> 
-                We propose Neural Optimized Vocabularial doc-ids for model-based information retrieval. 
-                NOVO doc-ids consist of non-overlapping n-gram sets to identify documents,
-                optimized through query denoising modeling and retrieval tasks.
-                We further demonstrate how N-grams lead to interpretability in understanding documents and queries. 
+                We propose a four-level optimization framework that performs data augmentation and contrastive learning end-to-end, 
+		to enable the augmented data to be tailored to the contrastive learning task.
               </p>
               <br>
               </td>
@@ -112,27 +107,22 @@
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <img src='images/retallm.png' width="160">
+                <img src='images/CERT.png' width="160">
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>RetaLLM: A Retrieval-Augmented Large Language Model Toolkit</papertitle>
+              <papertitle>Cert: Contrastive self-supervised learning for language understanding</papertitle>
               <br>
-              <a href="https://github.com/rucliujn">Jiongnan Liu</a>,
-              <a href="https://github.com/ignorejjj">Jiajie Jin</a>,
-              <strong>Zihan Wang</strong>, 
-              <a href="https://paperswithcode.com/search?q=author%3AJiehan+Cheng">Jiehan Cheng</a>,
-              <a href="http://playbigdata.ruc.edu.cn/dou">Zhicheng Dou</a>,
-              <a href="https://scholar.google.com/citations?hl=en&user=tbxCHJgAAAAJ">Ji-Rong Wen</a>
+              <strong>Hongchao Fang</strong>,
+	      <a href="https://pengtaoxie.github.io//">Pengtao Xie</a>
               <br>
               <em>Arxiv Preprint</em>
               <br>
-							<a href="https://arxiv.org/pdf/2306.05212.pdf">[paper]</a>
-              <a href="https://github.com/ruc-gsai/yulan-ir">[code]</a>
+		<a href="https://arxiv.org/abs/2005.12766">[paper]</a>
+              <a href="https://github.com/UCSD-AI4H/CERT">[code]</a>
               <p> 
-                We develop a RETreival-Augmented LLM toolkit. 
-                It provides more plug-and-play modules to support better interaction between IR systems and LLMs,
-                including request rewriting, document retrieval, passage extraction, answer generation, and fact-checking modules.      
+                We propose CERT: Contrastive self-supervised Encoder Representations from Transformers, 
+		which pertains language representation models using contrastive self-supervised learning at the sentence level    
               </p>
               </td>
           </tr>
@@ -140,23 +130,26 @@
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <img src='images/CQA.png' width="160">
+                <img src='images/EMNLP.png' width="160">
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Learning on Structured Documents for Conditional Question Answering</papertitle>
+              <papertitle>MedDialog: Large-scale medical dialogue dataset</papertitle>
               <br>
-              <strong>Zihan Wang</strong>, 
-              <a href="https://qhjqhj00.github.io/">Hongjin Qian</a>, 
-              <a href="http://playbigdata.ruc.edu.cn/dou">Zhicheng Dou</a>
+		    Guangtao Zeng, Wenmian Yang, Zeqian Ju, Yue Yang, Sicheng Wang, Ruisi Zhang,
+Meng Zhou, Jiaqi Zeng, Xiangyu Dong, Ruoyu Zhang,  <strong>Hongchao Fang</strong>,  Penghui Zhu,
+Shu Chen and Pengtao Xie
               <br>
-              <em>China National Conference on Computational Linguistics (CCL) 2023</em>
+              <em>Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>
               <br>
-							<a href="pdf/LSD.pdf">[paper]</a><a href="">[code]</a><a href="data/ccl-2023-poster.pdf">[poster]</a>
+		<a href="https://aclanthology.org/2020.emnlp-main.743.pdf">[paper]</a><a href="https://github.com/UCSD-AI4H/Medical-Dialogue-System">[code]</a>
               <p>
-                We propose a self-supervised learning method on structured documents for conditional question answering,
-                consisting of a conditional question generation approach and a contrastive learning objective.
-                We propose a pipeline able to generate multiple answers with detailed conditions.       
+                We build large-scale medical dialogue datasets – MedDialog, which  is the largest medical dialogue dataset to date. 
+		      We pretrain several dialogue generation models on the Chinese MedDialog dataset, including Transformer, GPT, 
+		      BERT-GPT, and compare their performance. It is shown that models trained on MedDialog are able to generate clinically 
+		      correct and human-like medical dialogues. We also study the transferability of models trained on MedDialog to low-resource medical dialogue generation tasks. 
+		      It is shown that via transfer learning which finetunes the models pretrained on MedDialog, the performance on medical dialogue generation
+		      tasks with small datasets can be greatly improved, as shown in human evaluation and automatic evaluation.     
               </p>
               </td>
           </tr>
